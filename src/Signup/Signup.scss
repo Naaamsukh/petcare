@@ -1,0 +1,40 @@
+.container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .form-signup{
+        max-width: 100%;
+        height:auto;
+        padding: 30px;
+        background: #efefef;
+        filter: drop-shadow(0px 0px 10px #000);
+        border-radius:10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        input{
+            padding:10px;
+            font-size: 3.5vmin;
+            margin: 10px;
+            width: 100%;
+            border:none;
+            outline: none;
+        }
+        p{
+            font-size: 2.5vmin;
+            color:#d10023;
+        }
+        button{
+            padding:10px;
+            background: linear-gradient(to bottom,#ed0d,#ddd);
+            border:none;
+            outline:none;
+            border-radius: 10px;
+            font-size: 3vmin;
+            color:#080710;
+            width:100%;
+        }
+    }
+}
